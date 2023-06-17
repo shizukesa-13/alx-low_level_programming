@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-char num[16] = "0123456789ABCDEF";
+char num[16] = "0123456789abcdef";
 int x;
 for (x = 0; x < 16; x++)
 {
