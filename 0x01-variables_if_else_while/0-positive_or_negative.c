@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - number assignement variables n 
+ * main - assign a random number to the variable n
  * Return: 0 (Success)
  */
 int main(void)
