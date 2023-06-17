@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+/**
+ * main - number assignement variables n 
+ * Return: 0 (Success)
+ */
+int main(void)
+{
+int n;
+if (n>0)
+{
+prinft("%d is positive\n",n);
+}
+else if (n==0)
+{
+ptintf("%d is zero\n",n);
+}
+else (n<0)
+{
+printf("%d is negative\n",n);
+}
+return (0);
+}
