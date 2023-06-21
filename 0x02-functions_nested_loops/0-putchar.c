@@ -7,11 +7,11 @@ int main()
 {
 char fct[] = "_putchar";
 int x = 0;
-while (fct[x] ! = '\0')
+while (fct[x] != '\0')
 {
-_putchar(fct[x]);
+putchar(fct[x]);
 x++;
 }
-_putchar('\n');
+putchar('\n');
 return (0);
 }
