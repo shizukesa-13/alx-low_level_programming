@@ -5,7 +5,7 @@
  */
 void write() 
 {
-putchat("_putchar");
+putchar("_putchar");
 }
 int main()
 {
