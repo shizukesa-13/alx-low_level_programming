@@ -12,9 +12,6 @@ while (alph[x] != '\0')
 putchar(alph[x]);
 x++;
 }
-{
-putchar(alph[x]);
-}
 putchar('\n');
 return (0);
 }
