@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * main - lowercase alphabets
  * Return: 0 (Success)
