@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * _isalpha - alphabets with _putchar
+ * @c: the character to be checked
  * Return: 0 (Success)
  */
 int _isalpha(int c)
