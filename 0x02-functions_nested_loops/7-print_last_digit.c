@@ -4,7 +4,7 @@
  * @x: the character to be checked
  * Return: y value
  */
-int print_last_digit(int)
+int print_last_digit(int x)
 {
 int y;
 y = x % 10;
