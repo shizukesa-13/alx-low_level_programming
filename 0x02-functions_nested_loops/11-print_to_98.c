@@ -7,20 +7,26 @@
  */
 void print_to_98(int x)
 {
-while (x <= 98)
+int y;
+if (x <= 98)
 {
-printf("%d", x);
-if (x != 98)
+for (y = x; y <= 98; y++)
 {
-printf(", ");
-}
-while (x >= 98)
-{
-printf("%d", x);
-if (x != 98)
+printf("%d", y);
+if (y != 98)
 {
 printf(", ");
 }
 }
+} else 
+{
+for (y = x; y >= 98; y--)
+{
+printf("%d", y);
+if (y != 98) {
+printf(", ");
 }
+}
+}
+printf("\n");
 }
