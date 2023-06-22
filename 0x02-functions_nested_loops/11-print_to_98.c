@@ -18,12 +18,14 @@ if (y != 98)
 printf(", ");
 }
 }
-} else 
+}
+else 
 {
 for (y = x; y >= 98; y--)
 {
 printf("%d", y);
-if (y != 98) {
+if (y != 98)
+{
 printf(", ");
 }
 }
