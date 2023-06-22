@@ -3,13 +3,14 @@
  * main - lowercase alphabets
  * Return: 0 (Success)
  */
-nt main(void)
+int main(void)
 {
-char alp = "a";
-while (alp <= 'z')
+char alp[] = "a";
+int x;
+while (alp[x] <= 'z')
 {
-_putchar(alp);
-alp++;
+_putchar(alp[x]);
+x++;
 }
 putchar('\n');
 return (0);
