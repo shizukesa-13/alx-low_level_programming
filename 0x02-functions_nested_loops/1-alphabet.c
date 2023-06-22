@@ -1,9 +1,9 @@
-#include "main.h"
+#include <stdio.h>
 /**
  * main - lowercase alphabets
  * Return: 0 (Success)
  */
-void print_alphabet(void)
+nt main(void)
 {
 char alp = "a";
 while (alp <= 'z')
