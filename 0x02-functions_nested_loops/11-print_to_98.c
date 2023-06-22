@@ -17,7 +17,7 @@ printf(", ");
 while (x >= 98)
 {
 printf("%d", x);
-if (n != 98)
+if (x != 98)
 {
 printf(", ");
 }
