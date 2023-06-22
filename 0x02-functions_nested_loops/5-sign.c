@@ -2,7 +2,7 @@
 /**
  * print_sign - alphabets with _putchar
  * @n: the character to be checked
- * Return: 0 (Success)
+ * Return: 1 if n is +, 0 if n =0, -1 if n is - 
  */
 int print_sign(int n)
 {
@@ -17,6 +17,7 @@ _putchar('0');
 return (0);
 }
 else
+{
 _putchar('-');
 return (-1);
 }
