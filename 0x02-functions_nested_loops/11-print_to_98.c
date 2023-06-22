@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_to_98 - adds two integers and returns the result
  * @x : The first printed number
@@ -6,33 +7,20 @@
  */
 void print_to_98(int x)
 {
-if (x <= 98)
-{
 while (x <= 98)
 {
-_putchar(x / 10 + '0');
-_putchar(x % 10 + '0');
+printf("%d", x);
 if (x != 98)
 {
-_putchar(',');
-_putchar(' ');
+printf(", ");
 }
-x++;
-}
-}
-else 
-{
 while (x >= 98)
 {
-_putchar(x / 10 + '0');
-_putchar(x % 10 + '0');
-if (x != 98)
+printf("%d", x);
+if (n != 98)
 {
-_putchar(',');
-_putchar(' ');
-}
-x--;
+printf(", ");
 }
 }
-_putchar('\n');
+}
 }
