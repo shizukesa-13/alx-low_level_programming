@@ -19,7 +19,7 @@ printf(", ");
 }
 }
 }
-else 
+else
 {
 for (y = x; y >= 98; y--)
 {
