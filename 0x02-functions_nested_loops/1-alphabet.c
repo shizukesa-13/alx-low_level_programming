@@ -1,16 +1,15 @@
-#include <stdio.h>
+#include <main.h>
 /**
  * main - lowercase alphabets
  * Return: 0 (Success)
  */
-int main(void)
+void print_alphabet(void)
 {
-char alph[] = "abcdefghijklmnopqrstuvwxyz";
-int x;
-while (alph[x] != '\0')
+char alp = "a";
+while (alp <= 'z')
 {
-putchar(alph[x]);
-x++;
+_putchar(alp);
+alp++;
 }
 putchar('\n');
 return (0);
