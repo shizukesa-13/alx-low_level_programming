@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-int i;
+int x; 
 x = 0;
 positive_or_negative(x);
 return (0);
