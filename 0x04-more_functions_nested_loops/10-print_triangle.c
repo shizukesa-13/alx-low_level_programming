@@ -10,7 +10,7 @@ x = 0;
 y = size - 1;
 while (x < size)
 {
-y = size - 1 - x
+y = size - 1 - x;
 z = x + 1;
 while (y > 0)
 {
