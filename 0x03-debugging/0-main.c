@@ -1,4 +1,6 @@
 #include "main.h"
+/* Function declaration */
+void positive_or_negative(int num);
 /**
  * main - testing
  * Return: 0
