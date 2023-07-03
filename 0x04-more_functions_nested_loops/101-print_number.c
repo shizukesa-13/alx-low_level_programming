@@ -10,7 +10,8 @@ if (n < 0)
 {
 i  = -n;
 _putchar('-');
-} else
+}
+else
 {
 i = n;
 }
