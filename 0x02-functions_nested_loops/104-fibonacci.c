@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-unsigned long int x, y, z, yy, y², zz, z²;
+unsigned long int x, y, z, y1, y2, z1, z2;
 y = 1;
 z = 2;
 printf("%lu", y);
@@ -16,18 +16,18 @@ printf(", %lu", x);
 z = z + y;
 y = z - y;
 }
-yy = y / 1000000000;
-y² = y % 1000000000;
-zz = z / 1000000000;
-z² = z % 1000000000;
+y1 = y / 1000000000;
+y2 = y % 1000000000;
+z1 = z / 1000000000;
+z2 = z % 1000000000;
 for (x = 92; x < 99; ++x)
 {
-printf(", %lu", zz + (z² / 1000000000));
-printf("%lu", z² % 1000000000);
-zz = zz + yy;
-yy = zz - yy;
-z² = z² + y²;
-y² = z² - y²;
+printf(", %lu", z1 + (z2 / 1000000000));
+printf("%lu", z2 % 1000000000);
+z1 = z1 + y1;
+y1 = z1 - y1;
+z2 = z2 + y2;
+y2 = z2 - y2;
 }
 printf("\n");
 return (0);
