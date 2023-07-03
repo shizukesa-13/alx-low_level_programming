@@ -12,7 +12,7 @@ z = 2;
 printf("%lu", y);
 for (x = 1; x < 91; x++)
 {
-printf(", %lu", x);
+printf(", %lu", z);
 z = z + y;
 y = z - y;
 }
