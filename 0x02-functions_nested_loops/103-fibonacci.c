@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
  * main - finds and prints the sum of the even-valued terms
  * Return: 0 (Success)
@@ -7,7 +6,7 @@
 int main(void)
 {
 int x;
-unsigned long int y, z, n, ;
+unsigned long int y, z, n, s;
 y = 1;
 z = 2;
 s = 0;
